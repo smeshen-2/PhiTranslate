@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="PhiTranslate.MainPage">
+
+	<AbsoluteLayout>
+		<Entry
+			x:Name="Entry"
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0.5, 0.05, 0.5, 0.2"
+			VerticalOptions="Center" />
+        <Label x:Name="Output"
+			   AbsoluteLayout.LayoutFlags="All"
+			   AbsoluteLayout.LayoutBounds="0.5, 0.225, 1, 0.2"
+			   HorizontalTextAlignment="Center"
+			   FontSize="14"/>
+        <Button Text="To Pocerpish"
+				AbsoluteLayout.LayoutFlags="All"
+				AbsoluteLayout.LayoutBounds="0.2, 0.3, 0.33, 0.15"
+				Clicked="Button_Clicked"/>
+        <Button Text="To English"
+				AbsoluteLayout.LayoutFlags="All"
+				AbsoluteLayout.LayoutBounds="0.8, 0.3, 0.33, 0.15"
+				Clicked="Button_Clicked"/>
+    </AbsoluteLayout>
+
+</ContentPage>
